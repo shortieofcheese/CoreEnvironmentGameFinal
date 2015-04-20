@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: d0766b5c61bb941318a550bb8fff612b
+timeCreated: 1428790827
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: front1
+    100004: imagePlane1
+    100006: pCube1
+    100008: pCube2
+    100010: pCube3
+    100012: pCylinder1
+    100014: pPipe1
+    100016: pPipe2
+    100018: pPlane1
+    100020: pSphere2
+    100022: pSphere3
+    100024: transform1
+    100026: transform2
+    100028: transform3
+    100030: transform4
+    100032: transform5
+    400000: //RootNode
+    400002: front1
+    400004: imagePlane1
+    400006: pCube1
+    400008: pCube2
+    400010: pCube3
+    400012: pCylinder1
+    400014: pPipe1
+    400016: pPipe2
+    400018: pPlane1
+    400020: pSphere2
+    400022: pSphere3
+    400024: transform1
+    400026: transform2
+    400028: transform3
+    400030: transform4
+    400032: transform5
+    2300000: pCube2
+    2300002: pCube3
+    2300004: pPipe1
+    2300006: pPipe2
+    3300000: pCube2
+    3300002: pCube3
+    3300004: pPipe1
+    3300006: pPipe2
+    4300000: pPipe1
+    4300002: pPipe2
+    4300004: pCube2
+    4300006: pCube3
+    7400000: door
+    7400002: door open
+    7400004: door close
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: door
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: front1
+        weight: 1
+      - path: imagePlane1
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform5
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pPipe2
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane1/transform3
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform2
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: door open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: front1
+        weight: 1
+      - path: imagePlane1
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform5
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pPipe2
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane1/transform3
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform2
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: door close
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: front1
+        weight: 1
+      - path: imagePlane1
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform5
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pPipe2
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane1/transform3
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform2
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: bf9c9dee3393340238c6868427160f3f
+timeCreated: 1429436177
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pCube55
+    100002: pCube56
+    100004: pCube57
+    100006: pCube58
+    100008: pCube59
+    100010: pCube60
+    100012: pCube61
+    100014: pCube62
+    100016: pCube63
+    100018: pCube64
+    100020: pCube65
+    100022: pCube77
+    100024: pCylinder13
+    100026: pCylinder14
+    100028: pCylinder15
+    100030: polySurface21
+    100032: polySurface24
+    100034: pPipe1
+    100036: //RootNode
+    400000: pCube55
+    400002: pCube56
+    400004: pCube57
+    400006: pCube58
+    400008: pCube59
+    400010: pCube60
+    400012: pCube61
+    400014: pCube62
+    400016: pCube63
+    400018: pCube64
+    400020: pCube65
+    400022: pCube77
+    400024: pCylinder13
+    400026: pCylinder14
+    400028: pCylinder15
+    400030: polySurface21
+    400032: polySurface24
+    400034: pPipe1
+    400036: //RootNode
+    2300000: pCube55
+    2300002: pCube56
+    2300004: pCube57
+    2300006: pCube58
+    2300008: pCube59
+    2300010: pCube60
+    2300012: pCube61
+    2300014: pCube62
+    2300016: pCube63
+    2300018: pCube64
+    2300020: pCube65
+    2300022: pCube77
+    2300024: pCylinder13
+    2300026: pCylinder14
+    2300028: pCylinder15
+    2300030: polySurface21
+    2300032: polySurface24
+    2300034: pPipe1
+    3300000: pCube55
+    3300002: pCube56
+    3300004: pCube57
+    3300006: pCube58
+    3300008: pCube59
+    3300010: pCube60
+    3300012: pCube61
+    3300014: pCube62
+    3300016: pCube63
+    3300018: pCube64
+    3300020: pCube65
+    3300022: pCube77
+    3300024: pCylinder13
+    3300026: pCylinder14
+    3300028: pCylinder15
+    3300030: polySurface21
+    3300032: polySurface24
+    3300034: pPipe1
+    4300000: pCube55
+    4300002: pCube56
+    4300004: pCube57
+    4300006: pCube58
+    4300008: pCube59
+    4300010: pCube60
+    4300012: pCube61
+    4300014: pCube62
+    4300016: pCube63
+    4300018: pCube64
+    4300020: pCube65
+    4300022: polySurface21
+    4300024: polySurface24
+    4300026: pCylinder13
+    4300028: pCube77
+    4300030: pPipe1
+    4300032: pCylinder14
+    4300034: pCylinder15
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
