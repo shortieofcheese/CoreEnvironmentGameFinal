@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 716c6f2ff33a54fe89449af9b92d820e
+timeCreated: 1429843888
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube103
+    100004: pCube125
+    100006: pCube126
+    100008: pCube127
+    100010: pCube128
+    100012: pCube129
+    100014: pCube130
+    100016: pCube131
+    100018: pCube78
+    100020: pCube79
+    100022: pCube80
+    100024: polySurface100
+    100026: polySurface101
+    100028: polySurface102
+    100030: polySurface102 1
+    100032: polySurface82
+    100034: polySurface82 1
+    100036: polySurface83
+    100038: polySurface84
+    100040: polySurface99
+    100042: transform107
+    100044: transform108
+    100046: transform109
+    100048: transform110
+    100050: transform111
+    100052: transform112
+    100054: transform113
+    100056: transform114
+    100058: transform115
+    100060: transform116
+    100062: transform25
+    100064: transform26
+    100066: transform27
+    100068: transform55
+    400000: //RootNode
+    400002: pCube103
+    400004: pCube125
+    400006: pCube126
+    400008: pCube127
+    400010: pCube128
+    400012: pCube129
+    400014: pCube130
+    400016: pCube131
+    400018: pCube78
+    400020: pCube79
+    400022: pCube80
+    400024: polySurface100
+    400026: polySurface101
+    400028: polySurface102
+    400030: polySurface102 1
+    400032: polySurface82
+    400034: polySurface82 1
+    400036: polySurface83
+    400038: polySurface84
+    400040: polySurface99
+    400042: transform107
+    400044: transform108
+    400046: transform109
+    400048: transform110
+    400050: transform111
+    400052: transform112
+    400054: transform113
+    400056: transform114
+    400058: transform115
+    400060: transform116
+    400062: transform25
+    400064: transform26
+    400066: transform27
+    400068: transform55
+    2300000: pCube126
+    2300002: pCube127
+    2300004: pCube130
+    2300006: polySurface102
+    2300008: polySurface82
+    2300010: polySurface83
+    3300000: pCube126
+    3300002: pCube127
+    3300004: pCube130
+    3300006: polySurface102
+    3300008: polySurface82
+    3300010: polySurface83
+    4300000: polySurface83
+    4300002: pCube126
+    4300004: pCube127
+    4300006: pCube130
+    4300008: polySurface102
+    4300010: polySurface82
+    7400000: FreezerDoorOPEN
+    7400002: FridgeDoorCLOSE
+    7400004: FridgeDoorOPEN
+    7400006: FreezerDoorCLOSE
+    7400008: FridgeDrawerOPEN
+    7400010: FridgeDrawerCLOSE
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FridgeDoorOPEN
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FridgeDoorCLOSE
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FreezerDoorOPEN
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FreezerDoorCLOSE
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FridgeDrawerOPEN
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FridgeDrawerCLOSE
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube78
+        weight: 1
+      - path: pCube78/transform26
+        weight: 1
+      - path: pCube79
+        weight: 1
+      - path: pCube79/transform25
+        weight: 1
+      - path: pCube80
+        weight: 1
+      - path: pCube80/transform27
+        weight: 1
+      - path: pCube103
+        weight: 1
+      - path: pCube103/polySurface82 1
+        weight: 1
+      - path: pCube103/polySurface82 1/transform116
+        weight: 1
+      - path: pCube103/polySurface83
+        weight: 1
+      - path: pCube103/polySurface84
+        weight: 1
+      - path: pCube103/polySurface84/transform109
+        weight: 1
+      - path: pCube103/transform55
+        weight: 1
+      - path: pCube125
+        weight: 1
+      - path: pCube125/transform107
+        weight: 1
+      - path: pCube126
+        weight: 1
+      - path: pCube127
+        weight: 1
+      - path: pCube128
+        weight: 1
+      - path: pCube128/transform108
+        weight: 1
+      - path: pCube129
+        weight: 1
+      - path: pCube129/transform110
+        weight: 1
+      - path: pCube130
+        weight: 1
+      - path: pCube131
+        weight: 1
+      - path: pCube131/polySurface99
+        weight: 1
+      - path: pCube131/polySurface99/transform115
+        weight: 1
+      - path: pCube131/polySurface100
+        weight: 1
+      - path: pCube131/polySurface100/transform113
+        weight: 1
+      - path: pCube131/polySurface101
+        weight: 1
+      - path: pCube131/polySurface101/transform112
+        weight: 1
+      - path: pCube131/polySurface102 1
+        weight: 1
+      - path: pCube131/polySurface102 1/transform114
+        weight: 1
+      - path: pCube131/transform111
+        weight: 1
+      - path: polySurface82
+        weight: 1
+      - path: polySurface102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
