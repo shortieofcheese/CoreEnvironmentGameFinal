@@ -20,12 +20,12 @@ public class FridgeAnimation : MonoBehaviour {
 			
 			if(!this.isOpen){
 				
-				fridge.GetComponent<Animation>().Play("FridgeAnimationOPEN");
+				fridge.GetComponent<Animation>().Play("FridgeDoorOPEN");
 				
 				this.isOpen = true;
 				
 			}else{
-				fridge.GetComponent<Animation>().Play("FridgeAnimationCLOSE");
+				fridge.GetComponent<Animation>().Play("FridgeDoorCLOSE");
 				
 				this.isOpen = false;
 				
