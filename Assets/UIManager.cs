@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour {
 	
 	bool isLooking;
 	public GameObject canvasImage;
+	public float RotationSpeed = 100;
 
 	void Update () {
 		FirstPersonController player = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
@@ -20,6 +21,8 @@ public class UIManager : MonoBehaviour {
 		}
 			if(isLooking){
 				player.enabled = false;
+				canvasImage.transform.Rotate((Input.GetAxis("Mouse X") * RotationSpeed), 
+				                 (Input.GetAxis("Mouse Y") * RotationSpeed ), 0, Space.World);
 				canvasImage.SetActive(true);
 
 			}else{
