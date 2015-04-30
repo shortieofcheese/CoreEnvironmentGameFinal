@@ -3,6 +3,8 @@ using System.Collections;
 
 public class checkTrigger : MonoBehaviour {
 
+	public int desiredSceneId;
+
 	MakeFade mf;
 	bool triggered;
 
@@ -13,7 +15,7 @@ public class checkTrigger : MonoBehaviour {
 
 	void OnTriggerEnter (Collider obj){
 		if (obj.gameObject.tag == "Player" && !triggered){
-			mf.FadeInToScene(2.5f, 1);
+			mf.FadeInToScene(2.5f, desiredSceneId);
 			triggered = true;
 		}
 	}

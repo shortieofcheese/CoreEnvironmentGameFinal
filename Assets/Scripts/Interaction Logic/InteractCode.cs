@@ -3,14 +3,11 @@ using System.Collections;
 
 public class InteractCode : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public GameObject player;
+
+
+	void Start(){
+
 	}
 
 	void OnLook(){
