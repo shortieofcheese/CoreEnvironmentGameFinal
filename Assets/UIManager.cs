@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour {
 	public float RotationSpeed = 100;
 
 	void Update () {
+
 		FirstPersonController player = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
 
 		if(Input.GetMouseButtonDown(0)){

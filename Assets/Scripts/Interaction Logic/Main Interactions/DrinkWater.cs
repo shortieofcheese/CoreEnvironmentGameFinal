@@ -22,7 +22,8 @@ public class DrinkWater : MonoBehaviour {
 	
 	IEnumerator drinkEventRoutine(){
 		yield return new WaitForSeconds(0.5f);
-		mf.FadeInToScene(1.5f, 3);
+		//mf.FadeInToScene(1.5f, 3);
+		Application.LoadLevel (2);
 	}
 
 }

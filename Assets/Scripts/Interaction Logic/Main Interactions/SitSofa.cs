@@ -16,6 +16,7 @@ public class SitSofa : MonoBehaviour {
 		if (Input.GetMouseButton(0) && !areSit){
 			areSit = true;
 			StartCoroutine(sitEventRoutine());
+
 		}
 		
 	}

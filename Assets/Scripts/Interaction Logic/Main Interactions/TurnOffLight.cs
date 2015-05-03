@@ -17,7 +17,6 @@ public class TurnOffLight : MonoBehaviour {
 	void OnLook(){
 
 		if (Input.GetMouseButton(0) && !lightOff){
-
 			lightOff = true;
 			StartCoroutine(lightEventRoutine());
 		}
@@ -26,8 +25,7 @@ public class TurnOffLight : MonoBehaviour {
 
 	IEnumerator lightEventRoutine(){
 		pointLight.SetActive(false);
-		yield return new WaitForSeconds(1f);
-		mf.FadeInToScene(1.5f, 1);
+		yield return new WaitForSeconds(0);
 	}
 
 
