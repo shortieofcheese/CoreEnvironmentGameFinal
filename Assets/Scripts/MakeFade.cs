@@ -16,18 +16,9 @@ public class MakeFade : MonoBehaviour {
 	public void FadeInToScene(float d, int s){
 		StartCoroutine(FadeInToOtherScene(d,s));
 	}
-
-	public void FadeAndChangeState(float d, int s){
-		StartCoroutine(FadeInToOtherScene(d,s));
-	}
+	
 
 	IEnumerator FadeInToOtherScene (float duration, int scene){
-		panel.CrossFadeAlpha(1f, duration, false);
-		yield return new WaitForSeconds(0.1f);
-		Application.LoadLevel(scene);
-	}
-
-	IEnumerator FadeInToOtherState (float duration, int scene){
 		panel.CrossFadeAlpha(1f, duration, false);
 		yield return new WaitForSeconds(duration);
 		Application.LoadLevel(scene);

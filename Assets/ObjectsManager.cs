@@ -8,11 +8,6 @@ public class ObjectsManager : MonoBehaviour {
 		state2Object1, state2Object2, state2Object3,
 		state3Object1, state3Object2, state3Object3;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
 	// Update is called once per frame
 	void Update () {
 	

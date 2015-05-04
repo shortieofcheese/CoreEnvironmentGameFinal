@@ -1,32 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
+namespace UnityStandardAssets.Characters.FirstPerson
+{
 
 public class NarrativeObjectInteraction : MonoBehaviour {
+	
+	public GameObject target;
+	UIManager ui;
+	public Transform myTransform;
 
-	//armazenar posicao inicial do objeto
-	Transform startTransform;
 	bool pressed;
-	bool found;
-
-	public Transform Player;
-
+	public bool found;
 
 	void Start(){
-		startTransform = this.transform;
+		ui = GameObject.Find("_Game Manager").GetComponent<UIManager>();
 	}
 
 	void OnLook(){
 		pressed = (Input.GetMouseButtonDown(0) ? true : false);
 
-		if (pressed & !found){
-			found = true;
-			StateManager.objectsFound++;
-			if (StateManager.objectsFound >= 3){
-				PlayerController.position = Player.position;
-				Application.LoadLevel(1);
-			}
+		if (pressed && !UIManager.isLooking){
+			UIManager.narrativeObject = this.gameObject;
+			UIManager.lastPosition = myTransform;
+			ui.startMovement();
 		}
 
 	}
+
+	
+
+}
 
 }
