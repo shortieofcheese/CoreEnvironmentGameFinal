@@ -6,6 +6,7 @@ public class doorAnimation : MonoBehaviour {
 	public GameObject door;
 	public bool isOpen = false;
 	bool mousePressed;
+	public bool lastDoor;
 
 	void Update(){
 
@@ -24,7 +25,7 @@ public class doorAnimation : MonoBehaviour {
 				
 				this.isOpen = true;
 				
-			}else{
+			}else if (!lastDoor){
 				door.GetComponent<Animation>().Play("door close");
 				
 				this.isOpen = false;
