@@ -19,6 +19,7 @@ public class TurnOffLight : MonoBehaviour {
 		if (Input.GetMouseButton(0) && !lightOff){
 			lightOff = true;
 			StartCoroutine(lightEventRoutine());
+
 		}
 
 	}
