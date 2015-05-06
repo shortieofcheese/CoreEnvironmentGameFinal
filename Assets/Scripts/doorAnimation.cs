@@ -19,7 +19,7 @@ public class doorAnimation : MonoBehaviour {
 
 		if (mousePressed){
 
-			if(!this.isOpen){
+			if(!this.isOpen && lastDoor){
 				
 				door.GetComponent<Animation>().Play("door open");
 				
