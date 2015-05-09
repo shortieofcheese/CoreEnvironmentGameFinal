@@ -10,6 +10,7 @@ public class TurnLight : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown(0)){
 			if (lightOn){
+
 				desklight.enabled = false;
 				lightOn = false;
 			}else if (!lightOn){

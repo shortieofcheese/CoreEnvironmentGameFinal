@@ -33,8 +33,8 @@ public class UIManager : MonoBehaviour {
 		pressed = (Input.GetMouseButtonDown(0) ? true : false);
 
 		if(canRotate){
-			narrativeObject.transform.Rotate((Input.GetAxis("Mouse X") * RotationSpeed), 
-				                 (Input.GetAxis("Mouse Y") * RotationSpeed ), 0, Space.World);
+			narrativeObject.transform.Rotate((Input.GetAxis("Mouse Y") * RotationSpeed), 
+				                 (Input.GetAxis("Mouse X") * RotationSpeed ), 0, Space.Self);
 
 			if (pressed){
 				letPlayerRotate();

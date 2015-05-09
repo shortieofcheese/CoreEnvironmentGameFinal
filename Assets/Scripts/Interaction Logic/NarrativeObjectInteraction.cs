@@ -13,7 +13,7 @@ public class NarrativeObjectInteraction : MonoBehaviour {
 	public bool found;
 
 	void Start(){
-		ui = GameObject.Find("_Game Manager").GetComponent<UIManager>();
+		ui = GameObject.Find("Game Manager").GetComponent<UIManager>();
 	}
 
 	void OnLook(){
