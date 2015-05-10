@@ -1,32 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Lamp : MonoBehaviour {
-
+public class bLight : MonoBehaviour {
+	
 	public Material material1;
 	public Material material2;
 	public Light lampLight;
-
-	bool lightOn;
-
-	new Renderer renderer;
-
-	void Start () {
+	public Light lampLight2;
+	public Renderer lightRend;
 	
-		renderer = GetComponent<Renderer>();
+	bool lightOn;
+	
+	void Start () {
 
 	}
-
-	void Update () {
-
-		if(lightOn == true){
-			renderer.material = material1;
-		}
-
-		if(lightOn == false){
-			renderer.material = material2;
-		}
 	
+	void Update () {
+		
+		if(lightOn == true){
+			lightRend.material = material1;
+		}
+		
+		if(lightOn == false){
+			lightRend.material = material2;
+		}
+		
 	}
 	void OnLook(){
 		
@@ -34,13 +32,16 @@ public class Lamp : MonoBehaviour {
 			if (lightOn){
 				
 				lampLight.enabled = false;
+				lampLight2.enabled = false;
 				lightOn = false;
+
 			}else if (!lightOn){
 				lampLight.enabled = true;
+				lampLight2.enabled = true;
 				lightOn = true;
 			}
 		}
 		
 	}
-
+	
 }

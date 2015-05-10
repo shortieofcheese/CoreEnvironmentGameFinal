@@ -8,7 +8,7 @@ public class test : MonoBehaviour {
 	public Material material3;
 	public Material material4;
 
-	Renderer renderer;
+	new Renderer renderer;
 
 
 	static public int state;
