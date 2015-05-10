@@ -8,7 +8,7 @@ public class doorAnimation : MonoBehaviour {
 	bool mousePressed;
 	public bool lastDoor;
 	bool canAnimate;
-	new AudioSource audio;
+	AudioSource audio;
 
 	void Start(){
 		canAnimate = true;
