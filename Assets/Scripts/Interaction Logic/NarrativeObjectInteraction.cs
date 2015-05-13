@@ -12,7 +12,10 @@ public class NarrativeObjectInteraction : MonoBehaviour {
 	bool pressed;
 	public bool found;
 
+		AudioSource audio;
+
 	void Start(){
+			audio = GetComponent<AudioSource>();
 		ui = GameObject.Find("Game Manager").GetComponent<UIManager>();
 	}
 
@@ -23,6 +26,8 @@ public class NarrativeObjectInteraction : MonoBehaviour {
 			UIManager.narrativeObject = this.gameObject;
 			UIManager.lastPosition = myTransform;
 			ui.startMovement();
+			audio.Play();
+			
 		}
 
 	}
