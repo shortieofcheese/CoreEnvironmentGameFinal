@@ -18,7 +18,7 @@ public class PathObjectsFloating : MonoBehaviour {
 	void OnTriggerEnter(Collider obj){
 		if (obj.gameObject.tag == "Player" && !entered){
 			entered = true;
-			iTween.StopByName(objectName);
+			iTween.StopByName(this.gameObject, objectName);
 			iTween.MoveTo(this.gameObject, iTween.Hash("y", 6f, "time", 3f, "easetype", iTween.EaseType.easeInOutSine));
 		}
 	}

@@ -8,6 +8,8 @@ public class ObjectsManager : MonoBehaviour {
 		state2Object1, state2Object2, state2Object3,
 		state3Object1, state3Object2, state3Object3;
 
+	public GameObject easel;
+
 	// Update is called once per frame
 	void Update () {
 	
@@ -25,10 +27,12 @@ public class ObjectsManager : MonoBehaviour {
 			state2Object1.SetActive(true);
 			state2Object2.SetActive(true);
 			state2Object3.SetActive(true);
+			if (easel != null) easel.SetActive(true);
 		} else {
 			state2Object1.SetActive(false);
 			state2Object2.SetActive(false);
 			state2Object3.SetActive(false);
+			if (easel != null) easel.SetActive(false);
 		}
 
 		if (StateManager.stateID == 3){

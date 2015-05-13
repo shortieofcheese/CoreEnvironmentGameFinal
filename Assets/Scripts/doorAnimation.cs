@@ -8,9 +8,11 @@ public class doorAnimation : MonoBehaviour {
 	bool mousePressed;
 	public bool lastDoor;
 	bool canAnimate;
+	AudioSource audio;
 
 	void Start(){
 		canAnimate = true;
+		audio = GetComponent<AudioSource>();
 	}
 
 	void Update(){
@@ -21,7 +23,8 @@ public class doorAnimation : MonoBehaviour {
 		if (mousePressed && canAnimate){
 			StartCoroutine(letAnimation());
 			if(!this.isOpen){
-				door.GetComponent<Animation>().Play("door open");				
+				door.GetComponent<Animation>().Play("door open");
+				audio.Play();
 				this.isOpen = true;				
 			}else if (!lastDoor){
 				door.GetComponent<Animation>().Play("door close");

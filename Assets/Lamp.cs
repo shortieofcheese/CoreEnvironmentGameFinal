@@ -6,9 +6,10 @@ public class Lamp : MonoBehaviour {
 	public Material material1;
 	public Material material2;
 	public Light lampLight;
+
 	bool lightOn;
 
-	Renderer renderer;
+	new Renderer renderer;
 
 	void Start () {
 	

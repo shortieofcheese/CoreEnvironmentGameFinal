@@ -28,8 +28,7 @@ public class UIManager : MonoBehaviour {
 	}
 
 	void Update () {
-
-		Debug.Log (lastPosition);
+			 	
 		pressed = (Input.GetMouseButtonDown(0) ? true : false);
 
 		if(canRotate){

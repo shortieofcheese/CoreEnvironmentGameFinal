@@ -24,4 +24,17 @@ public class MakeFade : MonoBehaviour {
 		Application.LoadLevel(scene);
 	}
 
+	public void FadeInOut(){
+		StartCoroutine(FadeInOutRoutine());
+	}
+	
+	
+	IEnumerator FadeInOutRoutine (){
+		panel.CrossFadeAlpha(1f, 2f, false);
+		yield return new WaitForSeconds(2f);
+		panel.CrossFadeAlpha(0f, 2f, false);
+	}
+
+
+
 }
