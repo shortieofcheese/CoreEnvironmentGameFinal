@@ -9,6 +9,9 @@ public class StateManager : MonoBehaviour {
 	AudioSource audio;
 
 	public doorAnimation door;
+	public GameObject player;
+	public GameObject cinematicCamera;
+	bool cinematicEnd;
 
 	MakeFade mf;
 
@@ -21,6 +24,12 @@ public class StateManager : MonoBehaviour {
 
 		if (objectsFound >= 3 && stateID == 3){
 			door.enabled = true;
+			if (!cinematicEnd){
+				cinematicEnd = true;
+				cinematicCamera.SetActive(true);
+				player.SetActive(false);
+				StartCoroutine(makePlayer());
+			}
 
 			if (door.isOpen && !done){
 				done = true;
@@ -35,6 +44,13 @@ public class StateManager : MonoBehaviour {
 			StateManager.objectsFound = 0;
 			mf.FadeInToScene(2f, 2);
 		}
+	}
+
+	IEnumerator makePlayer(){
+		yield return new WaitForSeconds(5f);
+		Debug.Log ("stuff");
+		player.SetActive(true);
+		cinematicCamera.SetActive(false);
 	}
 
 }
