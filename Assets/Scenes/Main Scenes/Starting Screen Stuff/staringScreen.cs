@@ -10,6 +10,12 @@ public class staringScreen : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
 	
+	}
+	void Next () {
+
+		Application.LoadLevel("House");
 	}
 }
