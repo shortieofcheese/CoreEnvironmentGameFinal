@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: 8bf2fef2082111b4baf9a0aac04c06b6
+timeCreated: 1431595720
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BODY_CTRL
+    100002: Face
+    100004: front1
+    100006: //RootNode
+    100008: group
+    100010: group1
+    100012: Hairdo
+    100014: HEAD_CTRL
+    100016: Head_IK
+    100018: HIPS_CTRL
+    100020: joint10
+    100022: joint10 1
+    100024: joint11
+    100026: joint11 1
+    100028: joint12
+    100030: joint12 1
+    100032: joint13
+    100034: joint13 1
+    100036: joint14
+    100038: joint14 1
+    100040: joint15
+    100042: joint15 1
+    100044: joint16
+    100046: joint16 1
+    100048: joint17
+    100050: joint17 1
+    100052: joint18
+    100054: joint18 1
+    100056: joint19
+    100058: joint19 1
+    100060: joint20
+    100062: joint20 1
+    100064: joint21
+    100066: joint21 1
+    100068: joint22
+    100070: joint22 1
+    100072: joint23
+    100074: joint23 1
+    100076: joint24
+    100078: joint24 1
+    100080: joint4
+    100082: joint4 1
+    100084: joint5
+    100086: joint5 1
+    100088: joint6
+    100090: joint6 1
+    100092: joint7
+    100094: joint7 1
+    100096: joint8
+    100098: joint8 1
+    100100: joint9
+    100102: joint9 1
+    100104: L_Ankle
+    100106: L_ARM_IK
+    100108: L_Clavicle
+    100110: L_Elbow
+    100112: L_Feet
+    100114: L_Foot
+    100116: L_FOOT_IK
+    100118: L_Hip
+    100120: L_Hip_IK
+    100122: L_INDEX
+    100124: L_Knee
+    100126: L_Leg
+    100128: L_LEG_CTRL
+    100130: L_LEG_IK
+    100132: L_MIDDLE
+    100134: L_PINKY
+    100136: L_RING
+    100138: L_Shoulder
+    100140: L_SHOULDER_CTRL
+    100142: L_SHOULDER_IK
+    100144: L_THUMB
+    100146: L_Toe
+    100148: L_TOE_CTRL
+    100150: L_TOE_IK
+    100152: L_Wrist_IN
+    100154: Neck
+    100156: Neck_Base
+    100158: NECK_CTRL
+    100160: Neck_IK
+    100162: Outfit
+    100164: pasted__pCube10
+    100166: pasted__pCube5
+    100168: pasted__pCube6
+    100170: pasted__pCube7
+    100172: pasted__pCube8
+    100174: pasted__pCube9
+    100176: pasted__polySurface1
+    100178: pasted__polySurface1 1
+    100180: pasted__polySurface10
+    100182: pasted__polySurface11
+    100184: pasted__polySurface12
+    100186: pasted__polySurface13
+    100188: pasted__polySurface13 1
+    100190: pasted__polySurface14
+    100192: pasted__polySurface15
+    100194: pasted__polySurface15 1
+    100196: pasted__polySurface16
+    100198: pasted__polySurface17
+    100200: pasted__polySurface18
+    100202: pasted__polySurface19
+    100204: pasted__polySurface2
+    100206: pasted__polySurface20
+    100208: pasted__polySurface21
+    100210: pasted__polySurface22
+    100212: pasted__polySurface23
+    100214: pasted__polySurface24
+    100216: pasted__polySurface3
+    100218: pasted__polySurface4
+    100220: pasted__polySurface5
+    100222: pasted__polySurface5 1
+    100224: pasted__polySurface7
+    100226: pasted__polySurface8
+    100228: pasted__polySurface9
+    100230: pasted__pPlane1
+    100232: pasted__transform10
+    100234: pasted__transform11
+    100236: pasted__transform12
+    100238: pasted__transform13
+    100240: pasted__transform14
+    100242: pasted__transform15
+    100244: pasted__transform16
+    100246: pasted__transform17
+    100248: pasted__transform18
+    100250: pasted__transform19
+    100252: pasted__transform20
+    100254: pasted__transform21
+    100256: pasted__transform22
+    100258: pasted__transform23
+    100260: pasted__transform24
+    100262: pasted__transform25
+    100264: pasted__transform26
+    100266: pasted__transform27
+    100268: pasted__transform28
+    100270: pasted__transform29
+    100272: pasted__transform30
+    100274: pasted__transform31
+    100276: pasted__transform32
+    100278: pasted__transform33
+    100280: pasted__transform34
+    100282: pasted__transform35
+    100284: pasted__transform36
+    100286: pasted__transform37
+    100288: pasted__transform38
+    100290: pasted__transform39
+    100292: pasted__transform8
+    100294: pasted__transform9
+    100296: polySurface1
+    100298: polySurface22
+    100300: polySurface24
+    100302: R_Ankle
+    100304: R_ANKLE_IK
+    100306: R_ARM_IK
+    100308: R_Clavicle
+    100310: R_Elbow
+    100312: R_Feet
+    100314: R_Foot
+    100316: R_Hip
+    100318: R_Hip_IK
+    100320: R_INDEX
+    100322: R_Knee
+    100324: R_Leg
+    100326: R_LEG_CTRL
+    100328: R_LEG_IK
+    100330: R_MIDDLE
+    100332: R_PINKY
+    100334: R_RING
+    100336: R_Shoulder
+    100338: R_SHOULDER_IK
+    100340: R_THUMB
+    100342: R_Toe
+    100344: R_TOE_CTRL
+    100346: R_TOE_IK
+    100348: R_Wrist_IN
+    100350: Root
+    100352: Root_IK
+    100354: Spine_1
+    100356: Spine_2
+    100358: Spine_3
+    100360: Spine_4
+    100362: Spine_5
+    100364: Spine_6
+    100366: Spine_7
+    100368: Top_Head
+    100370: transform22
+    400000: BODY_CTRL
+    400002: Face
+    400004: front1
+    400006: //RootNode
+    400008: group
+    400010: group1
+    400012: Hairdo
+    400014: HEAD_CTRL
+    400016: Head_IK
+    400018: HIPS_CTRL
+    400020: joint10
+    400022: joint10 1
+    400024: joint11
+    400026: joint11 1
+    400028: joint12
+    400030: joint12 1
+    400032: joint13
+    400034: joint13 1
+    400036: joint14
+    400038: joint14 1
+    400040: joint15
+    400042: joint15 1
+    400044: joint16
+    400046: joint16 1
+    400048: joint17
+    400050: joint17 1
+    400052: joint18
+    400054: joint18 1
+    400056: joint19
+    400058: joint19 1
+    400060: joint20
+    400062: joint20 1
+    400064: joint21
+    400066: joint21 1
+    400068: joint22
+    400070: joint22 1
+    400072: joint23
+    400074: joint23 1
+    400076: joint24
+    400078: joint24 1
+    400080: joint4
+    400082: joint4 1
+    400084: joint5
+    400086: joint5 1
+    400088: joint6
+    400090: joint6 1
+    400092: joint7
+    400094: joint7 1
+    400096: joint8
+    400098: joint8 1
+    400100: joint9
+    400102: joint9 1
+    400104: L_Ankle
+    400106: L_ARM_IK
+    400108: L_Clavicle
+    400110: L_Elbow
+    400112: L_Feet
+    400114: L_Foot
+    400116: L_FOOT_IK
+    400118: L_Hip
+    400120: L_Hip_IK
+    400122: L_INDEX
+    400124: L_Knee
+    400126: L_Leg
+    400128: L_LEG_CTRL
+    400130: L_LEG_IK
+    400132: L_MIDDLE
+    400134: L_PINKY
+    400136: L_RING
+    400138: L_Shoulder
+    400140: L_SHOULDER_CTRL
+    400142: L_SHOULDER_IK
+    400144: L_THUMB
+    400146: L_Toe
+    400148: L_TOE_CTRL
+    400150: L_TOE_IK
+    400152: L_Wrist_IN
+    400154: Neck
+    400156: Neck_Base
+    400158: NECK_CTRL
+    400160: Neck_IK
+    400162: Outfit
+    400164: pasted__pCube10
+    400166: pasted__pCube5
+    400168: pasted__pCube6
+    400170: pasted__pCube7
+    400172: pasted__pCube8
+    400174: pasted__pCube9
+    400176: pasted__polySurface1
+    400178: pasted__polySurface1 1
+    400180: pasted__polySurface10
+    400182: pasted__polySurface11
+    400184: pasted__polySurface12
+    400186: pasted__polySurface13
+    400188: pasted__polySurface13 1
+    400190: pasted__polySurface14
+    400192: pasted__polySurface15
+    400194: pasted__polySurface15 1
+    400196: pasted__polySurface16
+    400198: pasted__polySurface17
+    400200: pasted__polySurface18
+    400202: pasted__polySurface19
+    400204: pasted__polySurface2
+    400206: pasted__polySurface20
+    400208: pasted__polySurface21
+    400210: pasted__polySurface22
+    400212: pasted__polySurface23
+    400214: pasted__polySurface24
+    400216: pasted__polySurface3
+    400218: pasted__polySurface4
+    400220: pasted__polySurface5
+    400222: pasted__polySurface5 1
+    400224: pasted__polySurface7
+    400226: pasted__polySurface8
+    400228: pasted__polySurface9
+    400230: pasted__pPlane1
+    400232: pasted__transform10
+    400234: pasted__transform11
+    400236: pasted__transform12
+    400238: pasted__transform13
+    400240: pasted__transform14
+    400242: pasted__transform15
+    400244: pasted__transform16
+    400246: pasted__transform17
+    400248: pasted__transform18
+    400250: pasted__transform19
+    400252: pasted__transform20
+    400254: pasted__transform21
+    400256: pasted__transform22
+    400258: pasted__transform23
+    400260: pasted__transform24
+    400262: pasted__transform25
+    400264: pasted__transform26
+    400266: pasted__transform27
+    400268: pasted__transform28
+    400270: pasted__transform29
+    400272: pasted__transform30
+    400274: pasted__transform31
+    400276: pasted__transform32
+    400278: pasted__transform33
+    400280: pasted__transform34
+    400282: pasted__transform35
+    400284: pasted__transform36
+    400286: pasted__transform37
+    400288: pasted__transform38
+    400290: pasted__transform39
+    400292: pasted__transform8
+    400294: pasted__transform9
+    400296: polySurface1
+    400298: polySurface22
+    400300: polySurface24
+    400302: R_Ankle
+    400304: R_ANKLE_IK
+    400306: R_ARM_IK
+    400308: R_Clavicle
+    400310: R_Elbow
+    400312: R_Feet
+    400314: R_Foot
+    400316: R_Hip
+    400318: R_Hip_IK
+    400320: R_INDEX
+    400322: R_Knee
+    400324: R_Leg
+    400326: R_LEG_CTRL
+    400328: R_LEG_IK
+    400330: R_MIDDLE
+    400332: R_PINKY
+    400334: R_RING
+    400336: R_Shoulder
+    400338: R_SHOULDER_IK
+    400340: R_THUMB
+    400342: R_Toe
+    400344: R_TOE_CTRL
+    400346: R_TOE_IK
+    400348: R_Wrist_IN
+    400350: Root
+    400352: Root_IK
+    400354: Spine_1
+    400356: Spine_2
+    400358: Spine_3
+    400360: Spine_4
+    400362: Spine_5
+    400364: Spine_6
+    400366: Spine_7
+    400368: Top_Head
+    400370: transform22
+    2300000: pasted__pPlane1
+    2300002: polySurface24
+    3300000: pasted__pPlane1
+    3300002: polySurface24
+    4300000: Hairdo
+    4300002: Outfit
+    4300004: polySurface1
+    4300006: polySurface22
+    4300008: pasted__pPlane1
+    4300010: polySurface24
+    6400000: pasted__pPlane1
+    6400002: polySurface24
+    7400000: TeaParty
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Hairdo
+    13700002: Outfit
+    13700004: polySurface1
+    13700006: polySurface22
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TeaParty
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY_CTRL
+        weight: 1
+      - path: BODY_CTRL/Root_IK
+        weight: 1
+      - path: front1
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube5
+        weight: 1
+      - path: group/pasted__pCube5/pasted__transform11
+        weight: 1
+      - path: group/pasted__pCube6
+        weight: 1
+      - path: group/pasted__pCube6/pasted__transform10
+        weight: 1
+      - path: group/pasted__pCube7
+        weight: 1
+      - path: group/pasted__pCube7/pasted__transform9
+        weight: 1
+      - path: group/pasted__pCube8
+        weight: 1
+      - path: group/pasted__pCube8/pasted__transform8
+        weight: 1
+      - path: group/pasted__pCube9
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface1 1
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface1 1/pasted__transform16
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface2
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface2/pasted__transform15
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface3
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface3/pasted__transform14
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface4
+        weight: 1
+      - path: group/pasted__pCube9/pasted__polySurface4/pasted__transform13
+        weight: 1
+      - path: group/pasted__pCube9/pasted__transform12
+        weight: 1
+      - path: group/pasted__pCube10
+        weight: 1
+      - path: group/pasted__pCube10/pasted__transform20
+        weight: 1
+      - path: group/pasted__polySurface1
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface5 1
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface5 1/pasted__transform28
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface7
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface7/pasted__transform27
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface8
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface8/pasted__transform26
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface9
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface9/pasted__transform25
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface10
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface10/pasted__transform24
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface11
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface11/pasted__transform23
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface12
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface12/pasted__transform22
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface13 1
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface13 1/pasted__transform19
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface14
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__polySurface14/pasted__transform18
+        weight: 1
+      - path: group/pasted__polySurface1/pasted__transform17
+        weight: 1
+      - path: group/pasted__polySurface5
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface15 1
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface15 1/pasted__transform39
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface16
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface16/pasted__transform38
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface17
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface17/pasted__transform37
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface18
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface18/pasted__transform36
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface19
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface19/pasted__transform35
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface20
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface20/pasted__transform34
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface21
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface21/pasted__transform33
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface22
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface22/pasted__transform32
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface23
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface23/pasted__transform31
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface24
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__polySurface24/pasted__transform30
+        weight: 1
+      - path: group/pasted__polySurface5/pasted__transform29
+        weight: 1
+      - path: group/pasted__polySurface13
+        weight: 1
+      - path: group/pasted__polySurface13/pasted__transform21
+        weight: 1
+      - path: group/pasted__polySurface15
+        weight: 1
+      - path: group/pasted__polySurface15/transform22
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__pPlane1
+        weight: 1
+      - path: Hairdo
+        weight: 1
+      - path: HEAD_CTRL
+        weight: 1
+      - path: HEAD_CTRL/Head_IK
+        weight: 1
+      - path: HIPS_CTRL
+        weight: 1
+      - path: HIPS_CTRL/L_Hip_IK
+        weight: 1
+      - path: HIPS_CTRL/R_Hip_IK
+        weight: 1
+      - path: L_ARM_IK
+        weight: 1
+      - path: L_INDEX
+        weight: 1
+      - path: L_LEG_CTRL
+        weight: 1
+      - path: L_LEG_CTRL/L_FOOT_IK
+        weight: 1
+      - path: L_LEG_CTRL/L_LEG_IK
+        weight: 1
+      - path: L_MIDDLE
+        weight: 1
+      - path: L_PINKY
+        weight: 1
+      - path: L_RING
+        weight: 1
+      - path: L_SHOULDER_CTRL
+        weight: 1
+      - path: L_SHOULDER_CTRL/L_SHOULDER_IK
+        weight: 1
+      - path: L_THUMB
+        weight: 1
+      - path: L_TOE_CTRL
+        weight: 1
+      - path: L_TOE_CTRL/L_TOE_IK
+        weight: 1
+      - path: NECK_CTRL
+        weight: 1
+      - path: NECK_CTRL/Neck_IK
+        weight: 1
+      - path: Outfit
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface22
+        weight: 1
+      - path: polySurface24
+        weight: 1
+      - path: R_ARM_IK
+        weight: 1
+      - path: R_INDEX
+        weight: 1
+      - path: R_LEG_CTRL
+        weight: 1
+      - path: R_LEG_CTRL/R_ANKLE_IK
+        weight: 1
+      - path: R_LEG_CTRL/R_LEG_IK
+        weight: 1
+      - path: R_MIDDLE
+        weight: 1
+      - path: R_PINKY
+        weight: 1
+      - path: R_RING
+        weight: 1
+      - path: R_SHOULDER_IK
+        weight: 1
+      - path: R_THUMB
+        weight: 1
+      - path: R_TOE_CTRL
+        weight: 1
+      - path: R_TOE_CTRL/R_TOE_IK
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/L_Hip
+        weight: 1
+      - path: Root/L_Hip/L_Leg
+        weight: 1
+      - path: Root/L_Hip/L_Leg/L_Knee
+        weight: 1
+      - path: Root/L_Hip/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Root/L_Hip/L_Leg/L_Knee/L_Ankle/L_Foot
+        weight: 1
+      - path: Root/L_Hip/L_Leg/L_Knee/L_Ankle/L_Foot/L_Feet
+        weight: 1
+      - path: Root/L_Hip/L_Leg/L_Knee/L_Ankle/L_Foot/L_Feet/L_Toe
+        weight: 1
+      - path: Root/R_Hip
+        weight: 1
+      - path: Root/R_Hip/R_Leg
+        weight: 1
+      - path: Root/R_Hip/R_Leg/R_Knee
+        weight: 1
+      - path: Root/R_Hip/R_Leg/R_Knee/R_Ankle
+        weight: 1
+      - path: Root/R_Hip/R_Leg/R_Knee/R_Ankle/R_Foot
+        weight: 1
+      - path: Root/R_Hip/R_Leg/R_Knee/R_Ankle/R_Foot/R_Feet
+        weight: 1
+      - path: Root/R_Hip/R_Leg/R_Knee/R_Ankle/R_Foot/R_Feet/R_Toe
+        weight: 1
+      - path: Root/Spine_1
+        weight: 1
+      - path: Root/Spine_1/Spine_2
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint5
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint5/joint6
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint9
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint9/joint10
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint9/joint10/joint11
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint13
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint13/joint14
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint13/joint14/joint15
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint17
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint17/joint18
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint21
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint21/joint22
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist_IN/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/Neck_Base
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/Neck_Base/Neck
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/Neck_Base/Neck/Face
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/Neck_Base/Neck/Top_Head
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint5 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint5 1/joint6 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint5 1/joint6 1/joint7 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint5 1/joint6 1/joint7 1/joint8 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint9 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint9 1/joint10 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint9 1/joint10 1/joint11 1/joint12 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint13 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint13 1/joint14 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint13 1/joint14 1/joint15 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint13 1/joint14 1/joint15 1/joint16 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint17 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint17 1/joint18 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint17 1/joint18 1/joint19 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint17 1/joint18 1/joint19 1/joint20 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint21 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint21 1/joint22 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint21 1/joint22 1/joint23 1
+        weight: 1
+      - path: Root/Spine_1/Spine_2/Spine_3/Spine_4/Spine_5/Spine_6/Spine_7/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist_IN/joint4
+          1/joint21 1/joint22 1/joint23 1/joint24 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

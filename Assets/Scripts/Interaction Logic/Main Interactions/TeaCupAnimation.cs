@@ -5,7 +5,7 @@ public class TeaCupAnimation : MonoBehaviour {
 
 	public GameObject player;
 	bool clicked;
-
+	public GameObject Girl;
 	public GameObject finalCamera;
 
 	void OnLook(){
@@ -16,6 +16,8 @@ public class TeaCupAnimation : MonoBehaviour {
 			clicked = true;
 			player.SetActive(false);
 			finalCamera.SetActive(true);
+			GameObject.Find("Girl"); Girl.gameObject.SetActive(true);
+			GameObject.Find("Girl"); Girl.GetComponent<Animation>().Play("TeaParty");
 		}
 	}
 }
