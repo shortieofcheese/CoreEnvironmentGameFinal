@@ -26,14 +26,14 @@ public class StateManager : MonoBehaviour {
 				done = true;
 				audio.Play();
 				StateManager.objectsFound = 0;
-				mf.FadeInToScene(1.5f, 1);
+				mf.FadeInToScene(1.5f, 2);
 
 			}
 
 
 		} else if (objectsFound >= 3){
 			StateManager.objectsFound = 0;
-			mf.FadeInToScene(2f, 1);
+			mf.FadeInToScene(2f, 2);
 		}
 	}
 
